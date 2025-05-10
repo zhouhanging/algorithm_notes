@@ -1,3 +1,4 @@
-const TreeNode = require('./TreeNode');
+const root= require('./util/initTree');
 
-let node1 = new TreeNode(value);
+
+console.log(root);
