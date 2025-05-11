@@ -1,4 +1,4 @@
-const root= require('./二叉树/util/initTree');
+const root= require('./二叉树/util/initNumTree');
 
 
 var levelOrderTraverse = function(root) {
