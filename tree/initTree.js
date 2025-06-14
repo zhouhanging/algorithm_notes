@@ -1,5 +1,5 @@
 // 构建上面的完全二叉树
-const TreeNode = require('./TreeNode');
+import TreeNode from './TreeNode';
 
 const root = new TreeNode("A");
 root.left = new TreeNode("B");
@@ -17,4 +17,4 @@ root.right.left.right = new TreeNode("M");
 root.right.right.left = new TreeNode("N");
 root.right.right.right = new TreeNode("O");
 
-module.exports = root
+export default root

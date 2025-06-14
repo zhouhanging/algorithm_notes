@@ -1,5 +1,3 @@
-const root= require('./initNumTree');
-
 var levelOrderTraverse = function(root) {
     if (root === null) {
         return;
@@ -80,4 +78,4 @@ function breadthFirstSearch(root, target){
   }
 
 
-module.exports=breadthFirstSearch
+export {breadthFirstSearch}

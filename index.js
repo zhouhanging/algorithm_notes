@@ -1,7 +1,8 @@
-const root= require('./二叉树/util/initNumTree');
-
-const breadthFirstSearch = require('./二叉树/util/algorithm.js');
+import root from './tree/initNumTree.js'
+import {breadthFirstSearch} from './tree/algorithm.js'
 
 
 
 let res =  breadthFirstSearch(root,'12')
+
+console.log(res)
