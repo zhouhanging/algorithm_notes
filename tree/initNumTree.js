@@ -1,5 +1,6 @@
 // 构建上面的完全二叉树
 import TreeNode from './TreeNode';
+
 const root = new TreeNode("1");
 root.left = new TreeNode("2");
 root.right = new TreeNode("3");

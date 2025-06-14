@@ -1,7 +1,7 @@
 {
   "name": "algorithm_notes",
   "version": "1.0.0",
-  "description": "## 前言",
+  "description": "算法练习",
   "main": "index.js",
   "type": "module",
   "scripts": {
